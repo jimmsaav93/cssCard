@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+}
+
+.card {
+    width: 300px;
+    border-radius: 5px; 
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Imagen de la tarjeta */
+.card img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de la tarjeta */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 5px 5px 0 0;
+    justify-content: center;
+}
+
+/* Contenedor del título y el contenido de la tarjeta */
+.card-body {
+    margin-bottom: 20px;
+}
+
+/* Título de la tarjeta */
+.card-title {
+    padding: 10px;;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Contenido de la tarjeta */
+.card-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; /* Agregamos margen 0 para evitar espacio extra */
+}
+
+.card-text ul li {
+    padding: 10px ;
+    border-bottom: 1px solid black;
+}
+
+/* Enlaces al final de la tarjeta */
+.card-link {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+}
+
+.card-body ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-body ul li{
+    padding: 10px ;
+    border-bottom: 1px solid black;
+}
+
+.card-text{
+    padding: 10px;
+}
